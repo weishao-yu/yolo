@@ -2,7 +2,7 @@
 
 本專案為「人工智慧農業應用工作坊」之 YOLO 物件偵測實作紀錄，主題為使用 YOLO 模型偵測釋迦影像中的介殼蟲。
 
-This project is a YOLO object detection practice for detecting scale insects in plant images. It was organized as an image recognition project for a school application portfolio.
+This project is a YOLO object detection practice for detecting scale insects in sugar apple images. It is organized as an image recognition project for a school application portfolio.
 
 ---
 
@@ -46,10 +46,6 @@ The dataset is not included in this GitHub repository because it was provided du
 
 由於本專案使用工作坊提供之資料集，基於資料授權與檔案大小考量，未公開上傳原始訓練影像資料。
 
-Expected local dataset path:
-
-```text
-Bug_Detection/
 Expected local dataset path:
 
 ```text
@@ -110,12 +106,23 @@ runs/detect/bug_medium_1024_aug/
 
 Important files:
 
-- `results.png`：Training curves and validation metrics.
-- `results.csv`：Training and validation metrics for each epoch.
-- `confusion_matrix.png`：Confusion matrix of the validation result.
-- `BoxPR_curve.png`：Precision-Recall curve.
-- `val_batch*_pred.jpg`：Model prediction results.
-- `val_batch*_labels.jpg`：Ground-truth label comparison images.
+- `results.png`  
+  Training curves and validation metrics.
+
+- `results.csv`  
+  Training and validation metrics for each epoch.
+
+- `confusion_matrix.png`  
+  Confusion matrix of the validation result.
+
+- `BoxPR_curve.png`  
+  Precision-Recall curve.
+
+- `val_batch*_pred.jpg`  
+  Model prediction results.
+
+- `val_batch*_labels.jpg`  
+  Ground-truth label comparison images.
 
 ---
 
