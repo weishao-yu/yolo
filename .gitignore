@@ -1,8 +1,5 @@
 ﻿# Dataset images and generated masks
-*.jpg
 *.jpeg
-*.JPG
-*.png
 *.bmp
 *.webp
 
@@ -15,7 +12,7 @@
 /Bug_Detection/
 
 # YOLO training and inference outputs
-/runs/
+
 /Detection_Results/
 
 # Notebook and Python cache
