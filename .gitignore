@@ -1,0 +1,29 @@
+﻿# Dataset images and generated masks
+*.jpg
+*.jpeg
+*.JPG
+*.png
+*.bmp
+*.webp
+
+# YOLO model weights and exports
+*.pt
+*.onnx
+*.engine
+
+# Local dataset
+/Bug_Detection/
+
+# YOLO training and inference outputs
+/runs/
+/Detection_Results/
+
+# Notebook and Python cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Local environment files
+.env
+.venv/
+venv/

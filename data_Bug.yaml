@@ -1,0 +1,11 @@
+# 請更新資料集影像所存放的絕對或相對路徑
+path: ./Bug_Detection
+train: train/images  # train images 
+val: val/images   # val images 
+#test:  # test images (optional)
+
+# Number of Classes
+nc: 1 
+
+# Class Names (須按照類別標註編號的順序)
+names: [ 'Bug' ] 
