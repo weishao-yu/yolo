@@ -1,21 +1,12 @@
-﻿# Dataset images and generated masks
-*.jpeg
-*.bmp
-*.webp
+﻿# Local dataset
+/Bug_Detection/
 
 # YOLO model weights and exports
 *.pt
 *.onnx
 *.engine
 
-# Local dataset
-/Bug_Detection/
-
-# YOLO training and inference outputs
-
-/Detection_Results/
-
-# Notebook and Python cache
+# Python / notebook cache
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
